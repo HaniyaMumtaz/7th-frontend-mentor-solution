@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color:  hsl(217, 54%, 11%);
+    font-family: outfit;
+}
+
+.container{
+    max-width: 250px;
+    max-height: 430px;
+    width: 250px;
+    height: 430px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.bigimage{
+    max-width: 250px;
+    max-height: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 20px;
+    color:  hsl(0, 0%, 100%);
+}
+
+.description{
+    font-size: 14px;
+    color:  hsl(215, 51%, 70%);
+}
+
+.greenp{
+    color:  hsl(178, 100%, 50%);
+    font-size: 14px;
+    display: inline;
+    font-size: 12px;
+
+}
+
+.ethereum{
+    position: relative;
+    bottom: -4px;
+    margin-right: 5px;
+}
+
+.timer{
+    color:  hsl(215, 51%, 70%);
+    font-size: 14px;
+    display: inline;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.clock{
+    position: relative;
+    bottom: -4px;
+    margin-right: 4px;
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    border-width: 1px;
+}
+
+.avatar img{
+    max-width: 30px;
+    max-height: 30px;
+    width: 30px;
+    height: 30px;
+    border: 2px white;
+    display: inline;
+}
+
+.avatar p{
+    color:  hsl(215, 51%, 70%);
+    font-size: 14px;
+    display: inline;
+    /* margin-bottom: 10px; */
+    margin: 10px;
+    padding-bottom: 10px;
+     position: relative;
+    top: -10px;
+}
+
+.avatar span{
+    color:  hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 30px;
+    color: aliceblue;
+    }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    height: auto;
+    max-height: none;
+    padding: 20px;
+  }
+
+  .bigimage {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .description,
+  .greenp,
+  .timer,
+  .avatar p {
+    font-size: 12px;
+  }
+
+  .timer {
+    margin-left: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+
+  .clock{
+    position: relative;
+    bottom: 1px;
+  }
+
+  .avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .avatar img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .avatar p {
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .attribution {
+    margin-top: 20px;
+  }
+}
